@@ -2,6 +2,10 @@ import { notFound } from "next/navigation";
 import SiteShell from "../../SiteShell";
 import { articles } from "../../content";
 
+export function generateStaticParams() {
+  return articles.map((article) => ({ slug: article.slug }));
+}
+
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const article = articles.find(item => item.slug === slug);

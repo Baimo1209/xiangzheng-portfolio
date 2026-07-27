@@ -11,6 +11,8 @@ const nav = [
   ["归档", "/archives/"],
 ];
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,7 +33,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <div className="site-bg" style={{"--site-bg-image": "url('/bg.jpg')", "--site-bg-mobile-image": "url('/bg-mobile.jpg')"} as React.CSSProperties} aria-hidden="true" />
+      <div className="site-bg" style={{"--site-bg-image": `url('${basePath}/bg.jpg')`, "--site-bg-mobile-image": `url('${basePath}/bg-mobile.jpg')`} as React.CSSProperties} aria-hidden="true" />
       <div className="site-noise" aria-hidden="true" />
       <header className="site-header is-scrolled">
         <nav className="nav-shell" aria-label="主导航">

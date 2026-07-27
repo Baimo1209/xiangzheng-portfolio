@@ -1,7 +1,7 @@
 export const articles = [
   {
     slug: "vision-research",
-    date: "2026-07-27",
+    date: "2026-03-27",
     category: "科研经历",
     title: "大学生创新创业项目：从 YOLOv8 开始的计算机视觉实践",
     excerpt: "本科阶段参与两项大学生创新项目，在数据处理、模型训练、实验验证与代码实现中建立完整的视觉项目经验。",
@@ -52,7 +52,7 @@ export const articles = [
     slug: "healthcare-agent",
     date: "2026-06-23",
     category: "AI Agent",
-    title: "Kaggle项目：医疗症状分诊助手：安全边界与多轮状态",
+    title: "Kaggle项目：医疗症状分诊助手AGENT",
     excerpt: "通过多轮问答整理症状、刷新风险等级，并明确展示紧急提示、就医路径和产品边界。",
     repository: {
       label: "医疗分诊助手代码库",

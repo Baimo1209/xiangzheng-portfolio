@@ -2,13 +2,15 @@ import Link from "next/link";
 import SiteShell from "./SiteShell";
 import { articles } from "./content";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function Home() {
   return (
     <SiteShell>
       <section className="hero-section">
         <div className="hero-inner">
           <div className="hero-profile reveal is-visible">
-            <div className="avatar-wrap"><img src="/avatar.png" alt="项征" /></div>
+            <div className="avatar-wrap"><img src={`${basePath}/avatar.png`} alt="项征" /></div>
             <h1>项征</h1>
             <p className="profile-role">人工智能 / 计算机视觉 / 项目开发</p>
             <p className="profile-summary">华中科技大学人工智能专业学生，记录科研、项目与工程实践。</p>
