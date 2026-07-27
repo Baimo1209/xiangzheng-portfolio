@@ -1213,6 +1213,13 @@ form button,
   color: var(--sakura);
 }
 
+.article-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
 .compact-link {
   min-height: auto;
   margin: 0;

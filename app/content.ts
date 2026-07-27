@@ -3,7 +3,7 @@ export const articles = [
     slug: "vision-research",
     date: "2026-07-27",
     category: "科研经历",
-    title: "从 YOLOv8 开始的计算机视觉实践",
+    title: "大学生创新创业项目：从 YOLOv8 开始的计算机视觉实践",
     excerpt: "本科阶段参与两项大学生创新项目，在数据处理、模型训练、实验验证与代码实现中建立完整的视觉项目经验。",
     repository: {
       label: "UAV_Detection 代码库",
@@ -21,8 +21,8 @@ export const articles = [
     slug: "lightdiff-delivery",
     date: "2026-07-19",
     category: "计算机视觉",
-    title: "LightDiff：轻量低照度图像增强项目",
-    excerpt: "视觉认知工程课程设计，从数据构建、模型训练到 TorchScript 导出与 4K 分块推理。",
+    title: "视觉认知工程课程设计：LightDiff：轻量低照度图像增强项目",
+    excerpt: "从数据构建、模型训练到 TorchScript 导出与 4K 分块推理。",
     paragraphs: [
       "LightDiff 是视觉认知工程课程设计，目标是在较小模型规模下完成低照度图像增强。项目从数据构建开始固定数据版本和划分方式，通过确定性退化生成训练样本，使不同训练和消融实验可以在一致条件下比较。",
       "训练阶段保留完整历史、最佳检查点和轻度、中度、重度三档退化结果，同时比较不同推理步数的质量与耗时。除整体指标外，项目也保留重退化场景中的失败样本，避免只用少量效果图代替评价。",
@@ -34,7 +34,7 @@ export const articles = [
     slug: "asmr-player",
     date: "2026-06-20",
     category: "Android",
-    title: "ASMR Player：本地音声播放器",
+    title: "个人软件项目：ASMR Player：本地音声播放器",
     excerpt: "面向真实本地目录设计的 Android 播放器，支持音轨识别、封面、WebVTT 台词与离线播放。",
     repository: {
       label: "ASMR Player 代码库",
@@ -52,11 +52,15 @@ export const articles = [
     slug: "healthcare-agent",
     date: "2026-06-23",
     category: "AI Agent",
-    title: "医疗症状分诊助手：安全边界与多轮状态",
+    title: "Kaggle项目：医疗症状分诊助手：安全边界与多轮状态",
     excerpt: "通过多轮问答整理症状、刷新风险等级，并明确展示紧急提示、就医路径和产品边界。",
     repository: {
       label: "医疗分诊助手代码库",
       url: "https://github.com/Baimo1209/healthcare-symptom-triage-assistant",
+    },
+    demo: {
+      label: "Kaggle 演示",
+      url: "https://www.kaggle.com/code/xiangzheng968/healthcare-triage-demo",
     },
     paragraphs: [
       "该项目是为 Kaggle Healthcare AI Agent Hackathon 制作的本地浏览器原型，定位为教育用途的症状分诊辅助工具。它帮助用户整理症状、回答后续问题、查看可能的就医路径，并识别需要紧急处理的警示信号。",
