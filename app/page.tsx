@@ -21,7 +21,7 @@ export default function Home() {
             <div className="eyebrow">Welcome</div>
             <h2><span>学习、研究</span><br /><span className="gradient-text">与项目记录</span></h2>
             <p className="typing-line"><span>计算机视觉 · 多模态人工智能 · 软件工程</span></p>
-            <blockquote><p>记录做过的项目，也记录其中的方法与问题。</p><cite>- 项征</cite></blockquote>
+            <blockquote><p>记录做过的项目。</p><cite>- 项征</cite></blockquote>
             <div className="quick-links">
               <Link className="quick-link" href="/about/"><span className="quick-icon" /><span><strong>关于我</strong><small>教育背景、研究兴趣与当前方向</small></span><b>›</b></Link>
               <Link className="quick-link" href="/archives/"><span className="quick-icon" data-icon="book" /><span><strong>文章归档</strong><small>科研、项目与工程实践记录</small></span><b>›</b></Link>
