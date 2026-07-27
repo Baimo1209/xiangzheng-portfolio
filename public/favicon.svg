@@ -1,6 +1,21 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M22 19.2727C22 20.779 20.779 22 19.2727 22H14.7273C13.221 22 12 20.779 12 19.2727V12H19.2727C20.779 12 22 13.221 22 14.7273V19.2727Z" fill="#68C4FF"/>
-<path d="M20 2C21.1046 2 22 2.89543 22 4V7C22 8.10457 21.1046 9 20 9H17C15.8954 9 15 8.10457 15 7V4C15 2.89543 15.8954 2 17 2H20Z" fill="#0C79D8"/>
-<path d="M7 15C8.10457 15 9 15.8954 9 17V20C9 21.1046 8.10457 22 7 22H4C2.89543 22 2 21.1046 2 20V17C2 15.8954 2.89543 15 4 15H7Z" fill="#0C79D8"/>
-<path d="M12 12H4.72727C3.22104 12 2 10.779 2 9.27273V4.72727C2 3.22104 3.22104 2 4.72727 2H9.27273C10.779 2 12 3.22104 12 4.72727V12Z" fill="#2E9EFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="avatar placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9ec7f5"/>
+      <stop offset="1" stop-color="#f0b7d6"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17151d"/>
+      <stop offset="1" stop-color="#2a1c2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="200" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="182" fill="url(#inner)"/>
+  <circle cx="200" cy="154" r="70" fill="#f4f0ec" opacity="0.92"/>
+  <path d="M82 338c18-76 67-112 118-112s100 36 118 112" fill="#f4f0ec" opacity="0.92"/>
+  <path d="M100 116c40-78 160-82 202 10-24-35-76-44-102-16-24-24-70-20-100 6z" fill="#111318" opacity="0.9"/>
+  <circle cx="171" cy="158" r="9" fill="#111318"/>
+  <circle cx="229" cy="158" r="9" fill="#111318"/>
+  <path d="M170 196c20 14 42 14 62 0" fill="none" stroke="#111318" stroke-width="8" stroke-linecap="round"/>
+  <text x="200" y="365" text-anchor="middle" fill="#ffffff" opacity="0.68" font-size="34" font-family="Arial, sans-serif">B1209</text>
 </svg>
