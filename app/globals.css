@@ -1186,6 +1186,41 @@ form button,
   font-weight: 700;
 }
 
+.archive-entry {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  text-align: right;
+}
+
+.repository-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  margin-top: 18px;
+  padding: 8px 14px;
+  border: 1px solid rgba(158, 199, 245, 0.32);
+  border-radius: var(--radius);
+  color: var(--sky);
+  background: rgba(158, 199, 245, 0.08);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.repository-link:hover {
+  border-color: rgba(240, 183, 214, 0.48);
+  color: var(--sakura);
+}
+
+.compact-link {
+  min-height: auto;
+  margin: 0;
+  padding: 5px 9px;
+  white-space: nowrap;
+  font-size: 0.78rem;
+}
+
 .site-footer {
   padding: 54px 20px 34px;
 }
@@ -1390,6 +1425,11 @@ form button,
 
   .footer-links {
     justify-content: center;
+  }
+
+  .archive-entry {
+    display: grid;
+    justify-items: end;
   }
 }
 
