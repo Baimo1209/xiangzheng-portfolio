@@ -3,12 +3,10 @@ export const articles = [
     slug: "vision-research", date: "2026-03-27", category: "科研经历",
     title: "大学生创新项目：目标检测与无人机检测",
     excerpt: "参与两项大学生创新项目，主要做数据整理、代码编写、模型训练和测试。",
-    repository: { label: "UAV_Detection 代码库", url: "https://github.com/VigorousHanHan/UAV_Detection" },
     paragraphs: [
       "本科期间，我参与了两项人工智能方向的大学生创新项目。",
       "项翔老师指导的项目使用 YOLOv8 做目标检测。我主要负责代码编写，整理数据和标注，划分训练集与验证集，并进行训练和测试。根据误检、漏检的情况调整数据和参数。",
       "马杰老师指导的项目是低成本便携式无人机检测系统。我参与视觉算法和部分代码编写，主要涉及视频分析、点位分析和检测结果处理，也参与了训练和测试。",
-      "相关仓库为 UAV_Detection，包含 video_analysis.py、point_analysis.py 和 lvx_handler.py 等文件。仓库为私有，没有权限的访客无法访问。",
     ],
   },
   {
