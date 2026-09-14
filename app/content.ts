@@ -9,7 +9,7 @@ export const articles = [
     ],
   },
   {
-    slug: "poland-summer-school", date: "2026-09-14", category: "实习实践",
+    slug: "poland-summer-school", date: "2026-08-16", category: "实习实践",
     title: "波兰实践：华沙大学暑期访学",
     excerpt: "2026 年 8 月参加华沙大学暑期项目，记录课程学习和文化参访。",
     paragraphs: [
